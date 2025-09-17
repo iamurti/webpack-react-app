@@ -16,15 +16,22 @@ This project is a small React application created as a quick reference and pract
    npm install
    ```
 
-2. Start the development server:
+2. Start the development server (development mode):
+   ```sh
+   npm run dev
+   ```
+   This will start the app in development mode with hot reload enabled.
+
+3. Start the server with the default script (also development mode):
    ```sh
    npm start
    ```
 
-3. Build the project for production:
+4. Build the project for production:
    ```sh
    npm run build
    ```
+   This will generate optimized files in the `build` folder, ready for deployment.
 
 ## Project Structure
 
